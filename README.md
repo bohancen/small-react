@@ -1,5 +1,12 @@
 # react production too big
 
+## start
+
+    dev:
+        npm run webapck-dev
+    prod:
+        npm run webapck-prod
+
 ## exp
 
     https://stackoverflow.com/questions/42715671/react-dom-blowing-out-webpack-bundle-size-massively
