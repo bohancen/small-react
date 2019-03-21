@@ -16,3 +16,8 @@
     big lib:
     https://gist.github.com/Restuta/cda69e50a853aa64912d
     https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.4/umd/react-dom.production.min.js
+
+## warning
+
+    >=ie9
+    cant not use react new api {useState }
