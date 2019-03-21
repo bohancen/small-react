@@ -1,0 +1,30 @@
+{
+  "name": "small-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-dev": "NODE_ENV=development webpack --config ./config/webpack.js --watch",
+    "webpack-prod": "NODE_ENV=production webpack --config ./config/webpack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.29.6",
+    "webpack-bundle-analyzer": "^3.1.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
